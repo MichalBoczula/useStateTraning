@@ -127,3 +127,18 @@ p {
   background-color: rgb(255, 173, 159);
   cursor: pointer;
 }
+
+.removeBtn:hover {
+  color: rgb(252, 137, 117);
+  cursor: pointer;
+}
+
+.removeBtn {
+  height: 20px;
+  position: absolute;
+  right: 50px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all linear 0.3s;
+}
